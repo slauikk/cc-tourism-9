@@ -1,0 +1,47 @@
+.StakeholdersItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 360px;
+  padding: 10px;
+
+  background-color: $half-white;
+  border-radius: 20px;
+}
+
+.StakeholdersItem_logo {
+  width: auto;
+  height: auto;
+  max-height: 130px;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.StakeholdersItem_title {
+  margin-top: 10px;
+
+  text-align: center;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.StakeholdersItem_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.StakeholdersItem_info_item {
+  text-align: center;
+  color: #333;
+  font-size: 12px;
+
+  & a {
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+  }
+}
