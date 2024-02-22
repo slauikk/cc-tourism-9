@@ -44,7 +44,7 @@ export const Stakeholders: FC<IStakeholders> = () => {
             <>
               {dataStakeholders.map((e, i) => (
                 <SwiperSlide className={clsx(styles.Stakeholders_swiper_slide)}>
-                  {({isActive}) => <StakeholdersItem {...e} key={i} />}
+                  {({}) => <StakeholdersItem {...e} key={i} />}
                 </SwiperSlide>
               ))}
             </>
