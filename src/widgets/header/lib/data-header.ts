@@ -12,7 +12,7 @@ export const dataHeader = [
       },
       {
         title: "Професії",
-        path: "/proff",
+        path: "/professions",
       },
       {
         title: "Підвищення кваліфікації",

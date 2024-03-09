@@ -47,3 +47,28 @@ $shadow_m: 0px 0px 20px rgba(0, 0, 0, 0.15);
   $vw-context: calc((430 * 0.01) * 1px);
   @return calc(($target / $vw-context) * 1vw);
 }
+
+@function get-d($target) {
+  $vw-context: calc((1600 * 0.01) * 1px);
+  @return calc(($target / $vw-context) * 1vw);
+}
+
+@function get-ds($target) {
+  $vw-context: calc((1440 * 0.01) * 1px);
+  @return calc(($target / $vw-context) * 1vw);
+}
+
+@function get-tl($target) {
+  $vw-context: calc((1024 * 0.01) * 1px);
+  @return calc(($target / $vw-context) * 1vw);
+}
+
+@function get-t($target) {
+  $vw-context: calc((768 * 0.01) * 1px);
+  @return calc(($target / $vw-context) * 1vw);
+}
+
+@function get-m($target) {
+  $vw-context: calc((430 * 0.01) * 1px);
+  @return calc(($target / $vw-context) * 1vw);
+}

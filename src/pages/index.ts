@@ -10,6 +10,7 @@ import {OurAchievements} from "./our-achievements"
 import {OurGraduates} from "./our-graduates"
 import {OurStakeholders} from "./our-stakeholders"
 import {Practices} from "./practices"
+import {Professions} from "./professions"
 import {QualificationWorkDp} from "./qualification-work-dp"
 import {ScientificWork} from "./scientific-work"
 import {Specialty} from "./specialty"
@@ -20,6 +21,11 @@ export const pages = [
   {
     path: "/",
     Component: Home,
+    title: "Головна",
+  },
+  {
+    path: "/professions",
+    Component: Professions,
     title: "Головна",
   },
   {

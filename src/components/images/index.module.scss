@@ -1,0 +1,15 @@
+.Images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: get-vw(10px);
+  margin-top: get-vw(10px);
+
+  & img {
+    margin: 0;
+    padding: 0;
+  }
+
+  & img + img {
+    margin: 0 !important;
+  }
+}

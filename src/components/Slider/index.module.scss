@@ -1,0 +1,32 @@
+.Slider {
+  display: flex;
+  gap: get-d(30px);
+  overflow: hidden;
+
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #000 20%,
+    #000 80%,
+    transparent 100%
+  );
+
+  // will-change: transform;
+
+  &.row {
+    flex-direction: column;
+
+    width: 100%;
+
+    &.to-right {
+      align-items: flex-end;
+    }
+  }
+
+  &.col {
+  }
+
+  & div {
+    will-change: transform;
+  }
+}

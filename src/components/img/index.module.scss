@@ -9,6 +9,11 @@
     height: 300px;
   }
 
+  &.float-right {
+    float: right;
+    margin-left: 30px;
+  }
+
   & + & {
     margin-left: 10px;
   }

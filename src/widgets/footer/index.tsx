@@ -65,7 +65,7 @@ export const Footer: FC<IFooter> = () => {
               </div>
             </div>
             <div className={clsx(styles.footer_header_info_item)}>
-              Циклова комісія електричних та електронних систем автомобілів
+              Циклова комісія Туризму та сфери обслуговування
             </div>
           </div>
           <div

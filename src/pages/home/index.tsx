@@ -16,7 +16,7 @@ export const Home: FC<IHome> = () => {
             <div className={clsx(styles.home_hero)}>
               <div className={clsx(styles.home_hero_info)}>
                 <div className={clsx(styles.home_hero_info_title)}>
-                  Циклова комісія електричних та електронних систем автомобілів
+                  Циклова комісія Туризму та сфери обслуговування
                 </div>
                 <div className={clsx(styles.home_hero_info_des)}>
                   <p>
