@@ -19,7 +19,7 @@ export const dataHeader = [
         path: "/certification-training",
       },
       {
-        title: "Матеріально-технічна база ЦК",
+        title: "Матеріально-технічна база МК",
         path: "/material-and-technical-base-cc",
       },
     ],

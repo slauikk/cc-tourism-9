@@ -87,3 +87,19 @@ export const dataSponsorsSource_h_7: ISponsors[] = [
   {img: "/assets/images/professions/готель/30.jpg"},
 ]
 export const dataSponsors_h_7 = getSliderElements(dataSponsorsSource_h_7)
+
+//a
+export const dataSponsorsSource_a: ISponsors[] = [
+  {img: "/assets/images/professions/адміністратор/4.jpg"},
+  {img: "/assets/images/professions/адміністратор/5.jpg"},
+  {img: "/assets/images/professions/адміністратор/6.jpg"},
+]
+export const dataSponsors_a = getSliderElements(dataSponsorsSource_a)
+
+//p
+export const dataSponsorsSource_p: ISponsors[] = [
+  {img: "/assets/images/professions/працівник/1.jpg"},
+  {img: "/assets/images/professions/працівник/2.jpg"},
+  {img: "/assets/images/professions/працівник/3.jpg"},
+]
+export const dataSponsors_p = getSliderElements(dataSponsorsSource_p)

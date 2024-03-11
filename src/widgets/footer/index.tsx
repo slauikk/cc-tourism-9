@@ -65,7 +65,7 @@ export const Footer: FC<IFooter> = () => {
               </div>
             </div>
             <div className={clsx(styles.footer_header_info_item)}>
-              Циклова комісія Туризму та сфери обслуговування
+              Методична комісія туризму та сфери обслуговування
             </div>
           </div>
           <div
@@ -82,7 +82,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  м. Тернопіль, вул. Л. Курбаса, 13
+                  м. Тернопіль, вул. Тарнавського, 7
                 </div>
               </div>
             </div>
@@ -94,7 +94,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  096 182 88 13 , 28-19-66
+                  068 358 22 26, 43-34-02
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export const Footer: FC<IFooter> = () => {
                   className={clsx(styles.footer_header_contacts_item_icon)}
                 />
                 <div className={clsx(styles.footer_header_contacts_item_title)}>
-                  cs@tk.te.ua
+                  gruxinatanya@gmail.com
                 </div>
               </div>
             </div>

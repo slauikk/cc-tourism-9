@@ -3,6 +3,7 @@ import {Images} from "@/components/images"
 import {Img} from "@/components/img"
 
 import {
+  dataSponsors_a,
   dataSponsors_b,
   dataSponsors_h_1,
   dataSponsors_h_2,
@@ -11,6 +12,7 @@ import {
   dataSponsors_h_5,
   dataSponsors_h_6,
   dataSponsors_h_7,
+  dataSponsors_p,
 } from "./dataSlider"
 
 export const dataContent = [
@@ -518,13 +520,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <Images
-          images={[
-            "/assets/images/professions/адміністратор/4.jpg",
-            "/assets/images/professions/адміністратор/5.jpg",
-            "/assets/images/professions/адміністратор/6.jpg",
-          ]}
-        />
+        <Slider items={dataSponsors_a} type="row" />
       </>
     ),
   },
@@ -645,13 +641,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <Images
-          images={[
-            "/assets/images/professions/працівник/1.jpg",
-            "/assets/images/professions/працівник/2.jpg",
-            "/assets/images/professions/працівник/3.jpg",
-          ]}
-        />
+        <Slider items={dataSponsors_p} type="row" />
       </>
     ),
   },

@@ -11,7 +11,7 @@ interface IMaterialBase {}
 
 export const MaterialBase: FC<IMaterialBase> = () => {
   return (
-    <PageLayout title="Матеріально-технічна база ЦК">
+    <PageLayout title="Матеріально-технічна база МК">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}

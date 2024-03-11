@@ -51,7 +51,7 @@ export const pages = [
   {
     path: "/history-cc",
     Component: HistoryCC,
-    title: "Історія ЦК",
+    title: "Історія МК",
   },
   {
     path: "/material-and-technical-base-cc",

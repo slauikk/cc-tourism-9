@@ -11,7 +11,7 @@ interface ICompositionCC {}
 
 export const CompositionCC: FC<ICompositionCC> = () => {
   return (
-    <PageLayout title="Склад ЦК">
+    <PageLayout title="Cклад методиної комісії, та основні напрямки роботи">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}

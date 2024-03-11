@@ -24,7 +24,7 @@ export const Syllabuses: FC<ISyllabuses> = () => {
   }, [])
 
   return (
-    <PageLayout title="Дисципліни (силабуси)">
+    <PageLayout title="Предмети">
       {isLoading && <PageItem content={<Loading />} />}
       {data[0] && (
         <PageItem

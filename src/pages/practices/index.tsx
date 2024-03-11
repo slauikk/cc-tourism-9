@@ -24,7 +24,7 @@ export const Practices: FC<IPractices> = () => {
   }, [])
 
   return (
-    <PageLayout title="Практики">
+    <PageLayout title="Професійно-практична підготовка">
       {isLoading && <PageItem content={<Loading />} />}
       {data[0] && (
         <PageItem

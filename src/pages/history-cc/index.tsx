@@ -11,7 +11,7 @@ interface IHistoryCC {}
 
 export const HistoryCC: FC<IHistoryCC> = () => {
   return (
-    <PageLayout title="Історія ЦК">
+    <PageLayout title="Історія МК">
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}
