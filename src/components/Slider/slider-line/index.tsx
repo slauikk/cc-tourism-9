@@ -159,7 +159,7 @@ export const SliderLine: React.FunctionComponent<ISliderLineProps> = ({
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
     >
-      {[...items, ...items].map((e, i) => (
+      {[...items, ...items, ...items, ...items].map((e, i) => (
         <div
           className={clsx(style.SliderLine_item)}
           ref={(el) => (refItems.current[i] = el)}

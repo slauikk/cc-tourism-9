@@ -13,6 +13,7 @@ import {Practices} from "./practices"
 import {Professions} from "./professions"
 import {QualificationWorkDp} from "./qualification-work-dp"
 import {ScientificWork} from "./scientific-work"
+import {SocialWorker} from "./social-worker"
 import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
 import {Syllabuses} from "./syllabuses"
@@ -20,7 +21,7 @@ import {Syllabuses} from "./syllabuses"
 export const pages = [
   {
     path: "/",
-    Component: Home,
+    Component: CompositionCC,
     title: "Головна",
   },
   {
@@ -106,6 +107,11 @@ export const pages = [
   {
     path: "/syllabuses",
     Component: Syllabuses,
+    title: "Наші",
+  },
+  {
+    path: "/social-worker",
+    Component: SocialWorker,
     title: "Наші",
   },
 ]

@@ -1,10 +1,10 @@
 import clsx from "clsx"
-import React, {FC} from "react"
+import React, {FC, ReactNode} from "react"
 
 import styles from "./index.module.scss"
 
 interface IPageLayout {
-  title?: string
+  title?: ReactNode
   description?: string
   sectionID?: string
   children: React.ReactNode

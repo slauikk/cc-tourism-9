@@ -40,6 +40,10 @@ export const dataHeader = [
         title: "Професійно-практична підготовка",
         path: "/practices",
       },
+      {
+        title: "Освітня програма Соціальний робітник",
+        path: "/social-worker",
+      },
     ],
   },
   {

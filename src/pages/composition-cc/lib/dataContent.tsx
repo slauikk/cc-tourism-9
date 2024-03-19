@@ -1,3 +1,13 @@
+import {Slider} from "@/components/Slider"
+
+import {
+  dataSponsors_1,
+  dataSponsors_2,
+  dataSponsors_3,
+  dataSponsors_4,
+  dataSponsors_5,
+} from "./dataSlider"
+
 export const dataContent = [
   {
     content: (
@@ -40,7 +50,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>ФОТО адміністратор, ФОТО бджоляр, ФОТО туристи</p>
+        <Slider items={dataSponsors_1} type="row" />
       </>
     ),
   },
@@ -165,7 +175,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>ФОТО періодичні видання 1, ФОТО періодичні видання 2</p>
+        <Slider items={dataSponsors_2} type="row" />
       </>
     ),
   },
@@ -218,7 +228,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>ФОТО проект 1, ФОТО проект 2</p>
+        <Slider items={dataSponsors_3} type="row" />
       </>
     ),
   },
@@ -237,7 +247,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>ФОТО ТНТУ 1, ФОТО ТНТУ2, ФОТО ТНПУ</p>
+        <Slider items={dataSponsors_4} type="row" />
       </>
     ),
   },
@@ -341,7 +351,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <p>ФОТО 1, ФОТО2, ФОТО3</p>
+        <Slider items={dataSponsors_5} type="row" />
       </>
     ),
   },

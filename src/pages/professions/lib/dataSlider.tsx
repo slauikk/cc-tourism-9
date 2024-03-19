@@ -1,21 +1,6 @@
-import {ReactNode} from "react"
+import {ISponsors} from "@/types/global"
 
-import {SliderItem} from "@/components/slider-item"
-
-export interface ISponsors {
-  img: string
-}
-
-const getSliderElements = (items: ISponsors[]) => {
-  let dataSponsors: ReactNode[] = []
-
-  items.map((e) => {
-    const elem = <SliderItem {...e} />
-    dataSponsors = [...dataSponsors, elem]
-  })
-
-  return dataSponsors
-}
+import {getSliderElements} from "@/utils/getSliderElements"
 
 //b
 export const dataSponsorsSource_b: ISponsors[] = [
