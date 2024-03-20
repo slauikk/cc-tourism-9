@@ -1,7 +1,7 @@
 import clsx from "clsx"
 import {FC} from "react"
 
-import {ISponsors} from "@/pages/professions/lib/dataSlider"
+import {ISponsors} from "@/types/global"
 
 import styles from "./index.module.scss"
 
