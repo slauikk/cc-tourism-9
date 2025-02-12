@@ -4,7 +4,7 @@ import { Img } from "@/components/img";
 
 
 
-import { dataSponsors_a, dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_h_4, dataSponsors_h_5, dataSponsors_h_6, dataSponsors_h_7, dataSponsors_p } from "./dataSlider";
+import { dataSponsors_a, dataSponsors_b, dataSponsors_h_1, dataSponsors_h_2, dataSponsors_h_3, dataSponsors_h_4, dataSponsors_h_5, dataSponsors_h_6, dataSponsors_h_7, dataSponsors_p, dataSponsors_EMT } from "./dataSlider";
 
 
 export const dataContent = [
@@ -674,6 +674,13 @@ export const dataContent = [
   {
     content: (
       <>
+        <Slider items={dataSponsors_EMT} type="row" />
+      </>
+    ),
+  },
+  {
+    content: (
+      <>
         <p>
           <b>Основні обов'язки ЕМТ:</b>
           <ul>
@@ -700,7 +707,7 @@ export const dataContent = [
           <b>Потрібні навички та знання:</b>
           <ul>
             <li>
-              Базові медичні знання (анатомія, фізіологія, принципи надання
+              Базові медичні знання (анатомії, фізіології, принципів надання
               екстреної допомоги).
             </li>
             <li>

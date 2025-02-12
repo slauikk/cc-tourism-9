@@ -88,3 +88,13 @@ export const dataSponsorsSource_p: ISponsors[] = [
   {img: "/assets/images/professions/працівник/3.jpg"},
 ]
 export const dataSponsors_p = getSliderElements(dataSponsorsSource_p)
+
+export const dataSponsorsSource_EMT: ISponsors[] = [
+  {img: "/assets/images/professions/EMT/1.jpg"},
+  {img: "/assets/images/professions/EMT/2.jpg"},
+  {img: "/assets/images/professions/EMT/3.jpg"},
+  {img: "/assets/images/professions/EMT/4.jpg"},
+  {img: "/assets/images/professions/EMT/5.jpg"},
+  {img: "/assets/images/professions/EMT/6.jpg"},
+]
+export const dataSponsors_EMT = getSliderElements(dataSponsorsSource_EMT)
