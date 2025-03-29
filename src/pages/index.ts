@@ -17,8 +17,9 @@ import {SocialWorker} from "./social-worker"
 import {Specialty} from "./specialty"
 import {StudentLeisure} from "./student-leisure-time"
 import {Syllabuses} from "./syllabuses"
+import {EmergencyMedical} from "./emergency-medical"
 
-export const pages = [
+export const    pages = [
   {
     path: "/",
     Component: CompositionCC,
@@ -112,6 +113,11 @@ export const pages = [
   {
     path: "/social-worker",
     Component: SocialWorker,
+    title: "Наші",
+  },
+  {
+    path: "/emergency-medical",
+    Component: EmergencyMedical,
     title: "Наші",
   },
 ]

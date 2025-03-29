@@ -7,11 +7,11 @@ import {PageLayout} from "../../layouts"
 import styles from "./index.module.scss"
 import {dataContent} from "./lib/dataContent"
 
-interface ICompositionCC {}
+interface IEmergencyMedical {}
 
-export const CompositionCC: FC<ICompositionCC> = () => {
+export const EmergencyMedical: FC<IEmergencyMedical> = () => {
   return (
-    <PageLayout title="Cклад методичної комісії, основні напрямки роботи">
+    <PageLayout title={<>Освітня програма "Екстрений медичний технік"</>}>
       {dataContent.map((e, i) => (
         <PageItem {...e} key={i} />
       ))}
