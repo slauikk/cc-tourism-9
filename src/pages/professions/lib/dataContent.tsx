@@ -769,4 +769,13 @@ export const dataContent = [
       </>
     ),
   },
+  {
+    content: (
+      <>
+        <a href="/assets/pdf/якісний%20ЕМТ2друк.pdf">
+          Кадрове забезпечення
+        </a>
+      </>
+    ),
+  },
 ]
