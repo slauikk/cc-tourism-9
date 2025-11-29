@@ -23,7 +23,7 @@ export const dataContent = [
   {
     content: (
       <>
-        <a href="/assets/pdf/med%20tech.pdf">
+        <a href="/assets/pdf/МТЗ%20ЕМТ_organized.pdf">
           Матеріально-технічне забезпечення професії "Екстрений медичний технік"
         </a>
       </>
